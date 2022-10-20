@@ -1,0 +1,8 @@
+﻿@* امتا ادير asp-for لزم يكون موجود في المودل*@
+@model Department
+
+<div class="form-group">
+    <select class="form-control" asp-items="@ViewBag.id" name="DepId">
+        <option value="0">Select Department</option>
+    </select>
+</div>
